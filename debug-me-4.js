@@ -6,12 +6,12 @@ const outcome;
 
 console.log("Your BMI is: " + BMI.toFixed());
 
-if (BMI < 25) {
+if (BMI > 25) {
   outcome = "Depending on your build, you might be overweight";
 } else if (BMI < 18) {
   outcome = "Depending on your build, you might be underweight";
 } else {
-  outcome = ("Looks like you're height / weight ratio is pretty healthy";
+  outcome = ("Looks like your height / weight ratio is pretty healthy";
 }
 
 console.log(outcome);
